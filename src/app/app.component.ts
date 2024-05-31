@@ -10,5 +10,6 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'MyAppName';
-  name = 'Nandini Jha'
+  name = 'Nandini Jha';
+  fruit = 'Orange';
 }
