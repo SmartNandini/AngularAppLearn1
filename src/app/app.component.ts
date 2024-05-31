@@ -14,5 +14,6 @@ export class AppComponent {
   fruit = 'Orange';
   columnSpan: number = 2;
   bdr = "4px";
-  textColor='Crimson';
+  textColor='Blue';
+  classesToApply: string = 'italicsClass boldClass';
 }
