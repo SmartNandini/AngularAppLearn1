@@ -16,4 +16,7 @@ export class AppComponent {
   bdr = "4px";
   textColor='Blue';
   classesToApply: string = 'italicsClass boldClass';
+  onClick() {
+    console.log('Button clicked!');
+  }
 }

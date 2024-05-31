@@ -1,17 +1,18 @@
-<html>
-  <title>Default App Component Page</title>
-  <body>
+
     Default App Component Page<br>
     We can modify simple content here!<br>
     {{name}}<br>
     <input [value]="fruit"><br>
 
-      <table [attr.border]="bdr" height="200" width="400">
-      <tr>
-      <td attr.colspan="{{columnSpan}}" align="center"> Record 1 </td>
-      <td [attr.colspan]="columnSpan" align="center"> Record 2 </td>
-      </tr> </table>
-      <br>
+    <table [attr.border]="bdr" height="200" width="400">
+    <tbody>
+    <tr>
+    <td attr.colspan="{{columnSpan}}" align="center"> Record 1 </td>
+    <td [attr.colspan]="columnSpan" align="center"> Record 2 </td>
+    </tr>
+    </tbody>
+    </table>
+    <br>
 
     <p [style.color]="textColor">This text is colored.</p>
 
@@ -20,7 +21,6 @@
     <button class='colorClass'>My Button</button>
     <button class='colorClass' [class]='classesToApply'>My Button</button>
 
-
-  </body>
-</html>
+    <br>
+    <button (click)="onClick()">Click here!</button>
 <router-outlet />
