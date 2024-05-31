@@ -4,7 +4,13 @@
     Default App Component Page<br>
     We can modify simple content here!<br>
     {{name}}<br>
-    <input [value]="fruit">
+    <input [value]="fruit"><br>
+
+      <table [attr.border]="bdr" height="200" width="400">
+      <tr>
+      <td attr.colspan="{{columnSpan}}" align="center"> Record 1 </td>
+      <td [attr.colspan]="columnSpan" align="center"> Record 2 </td>
+      </tr> </table>
 
   </body>
 </html>

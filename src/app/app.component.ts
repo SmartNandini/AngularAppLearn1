@@ -12,4 +12,6 @@ export class AppComponent {
   title = 'MyAppName';
   name = 'Nandini Jha';
   fruit = 'Orange';
+  columnSpan: number = 2;
+  bdr = "4px";
 }
