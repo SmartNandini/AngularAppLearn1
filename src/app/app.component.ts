@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation  } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { ComponentName1Component } from './component-name1/component-name1.component';
@@ -12,7 +12,8 @@ import { AboutComponent } from './Components/about/about.component';
   //imports: [RouterOutlet, FormsModule,CommonModule],
   imports: [RouterOutlet, FormsModule, ComponentName1Component, ContactComponent,AboutComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
+  encapsulation: ViewEncapsulation.Emulated, // Default, scoped to this component // // You can use Emulated, None, or ShadowDom
 })
 export class AppComponent {
   title = 'MyAppName';

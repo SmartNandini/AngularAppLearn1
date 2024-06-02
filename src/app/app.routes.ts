@@ -7,6 +7,7 @@ import { ComponentName1Component } from './component-name1/component-name1.compo
 
 export const routes: Routes = [
     //{'path': '', component: AppComponent},
+    //{'path': '', component: AboutComponent},
     {'path': 'about', component: AboutComponent},
     {'path': 'contact', component: ContactComponent},
     {'path': 'comp1', component: ComponentName1Component},

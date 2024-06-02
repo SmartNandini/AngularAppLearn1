@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RandomComponent } from './random.component';
+import { FlatComponentComponent } from './flat-component.component';
 
-describe('RandomComponent', () => {
-  let component: RandomComponent;
-  let fixture: ComponentFixture<RandomComponent>;
+describe('FlatComponentComponent', () => {
+  let component: FlatComponentComponent;
+  let fixture: ComponentFixture<FlatComponentComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [RandomComponent]
+      imports: [FlatComponentComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(RandomComponent);
+    fixture = TestBed.createComponent(FlatComponentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
