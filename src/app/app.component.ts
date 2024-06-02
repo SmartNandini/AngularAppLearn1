@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { ComponentName1Component } from './component-name1/component-name1.component';
 //import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   //imports: [RouterOutlet, FormsModule,CommonModule],
-  imports: [RouterOutlet, FormsModule],
+  imports: [RouterOutlet, FormsModule, ComponentName1Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
