@@ -1,11 +1,11 @@
-/*
+
 import { bootstrapApplication } from '@angular/platform-browser';
 import { appConfig } from './app/app.config';
 import { AppComponent } from './app/app.component';
 
 bootstrapApplication(AppComponent, appConfig)
   .catch((err) => console.error(err));
-*/
+
 
 /*
 import { ComponentName1Component } from './app/component-name1/component-name1.component';
@@ -39,6 +39,7 @@ export const appConfig: ApplicationConfig = {
 };
 */
 
+/*
 import { bootstrapApplication } from '@angular/platform-browser';
 import { AppComponent } from './app/app.component';
 import { importProvidersFrom } from '@angular/core';
@@ -49,3 +50,4 @@ bootstrapApplication(AppComponent, {
     importProvidersFrom(FormsModule)
   ]
 }).catch(err => console.error(err));
+*/
