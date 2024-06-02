@@ -23,4 +23,12 @@
 
     <br>
     <button (click)="onClick()">Click here!</button>
+    <br>
+    <div>
+        <label for="colorInput">Enter your favourite color:</label>
+        <input id="colorInput" [(ngModel)]="color">
+      </div>
+      
+      <p>Your name is: {{color}}</p>
+
 <router-outlet />
